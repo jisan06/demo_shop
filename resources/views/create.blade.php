@@ -21,7 +21,7 @@
                 @csrf
 
                 <div class="row">
-                    <div class="col-md-6 mb-3">
+                    <div class="col-md-4 mb-3">
                         <div class="form-group">
                             <label for="user_id">User ID:</label>
                             <select class="form-control" id="user_id" name="user_id" required>
@@ -31,20 +31,20 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-md-6 mb-3">
+                    <div class="col-md-4 mb-3">
                         <div class="form-group">
                             <label for="amount">Amount:</label>
                             <input type="number" class="form-control" id="amount" name="amount" step="1" required>
                         </div>
                     </div>
-                    <div class="col-md-12 mb-3">
+                    <div class="col-md-4 mb-3">
                         <div class="form-group">
                             <label for="payment_method">Payment Gateway:</label>
                             <div id="payment-method"></div>
                             <div id="card-errors" role="alert"></div>
                         </div>
                     </div>
-                    <div class="col-md-2 mb-3">
+                    <div class="col-md-12 mb-3">
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </div>
                 </div>

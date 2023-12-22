@@ -6,5 +6,6 @@ For checking user profile api, endpoints are    <br />
     /users/{id} (PUT|PATCH Method)    <br />
     /users/{id} (DELETE Method)    <br />
 
-For Payment submit go to root url, here will be a payment form, where stripe payment method implemented    <br />
-in env file give STRIPE_KEY, STRIPE_SECRET for sand box test.    <br />
+For Payment submit go to root url, here will be a payment form, where stripe payment method implemented.    <br />
+in env file give STRIPE_KEY, STRIPE_SECRET for sandbox test.    <br />
+For testing stripe payment by dummy card number: 4242 4242 4242 4242
